@@ -1,0 +1,7 @@
+print("Ingresa tus datos personales")
+nombre = input("Nombre: ")
+apellido = input("Apellido: ")
+edad = int(input("Edad: "))
+direccion = input("Dirección: ")
+print("Tus datos son:")
+print(f"Nombre: {nombre} {apellido} Edad: {edad} Dirección: {direccion}")
