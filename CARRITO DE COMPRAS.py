@@ -4,32 +4,20 @@ def mostrar_menu():
     print("Menú de opciones:")
     print("1 INGRESAR PRODUCTO")  
     print("2 ELIMINAR")
-    print("3 CALCULAR EL TOTAL")
-    print("4 SALIR DEL CARRITO")
-    
-
+    print("3 MOTRAR EL CONTENIDO Y CALCULAR EL TOTAL")
+    print("4 FINALIZAR LA COMPRA")
 def agregar_producto(producto):
     carrito_compras.append(producto)
     print(f"Producto '{producto}' agregado al carrito.")
-
-
-
-
 def eliminar_producto(producto):
     if producto in carrito_compras:
         carrito_compras.remove(producto)
         print(f"Producto '{producto}' eliminado del carrito.")
     else:
         print(f"Producto '{producto}' no encontrado en el carrito.")
-
-
-
 def calcular_total():
     total = sum(precio for _, precio in carrito_compras)
     print(f"El total de la compra es: ${total:.2f}")  
-
-
-
 def mostrar_carrito():
     if not carrito_compras:
         print("El carrito está vacío.")
@@ -37,7 +25,10 @@ def mostrar_carrito():
         print("Contenido del carrito de compras:")
         for i, (articulo, precio) in enumerate(carrito_compras, start=1):
             print(f"{i}. {articulo} - ${precio:.2f}")      
-            
+
+
+
+
 while True:
     mostrar_menu()
     opcion = input("Seleccione una opción (1-4): ")
