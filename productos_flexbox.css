@@ -13,7 +13,8 @@ section {
     background-color: #E9ECEF;
 }
 .imagenproducto1 {
-    width: 350px;
+    width: 90%;
+    max-width: 350px ;
     height: auto;
     margin-bottom: 20px;
     align-items: center;
@@ -22,7 +23,8 @@ section {
     margin-right: auto;
 }
 .imagenproducto2 {
-    width: 350px;
+    width: 90%;
+    max-width: 350px ;
     height: auto;
     margin-bottom: 20px;
     align-items: center;
@@ -31,7 +33,8 @@ section {
     margin-right: auto;
 }
 .imagenproducto3 {
-   width: 350px;
+    width: 90%;
+    max-width: 350px ;
     height: auto;
     margin-bottom: 20px;
     align-items: center;
@@ -40,10 +43,10 @@ section {
     margin-right: auto;
 }
 h1 {
-    font-size: 75px;
+    font-size: 40px;
 }
 h3, p {
-    font-size: 35px;
+    font-size: 22px;
     color: #37393b;
     text-align: center;
     margin-bottom: 20px;
@@ -51,7 +54,7 @@ h3, p {
     margin-right: 10px;
 }
 .descripcion1, .descripcion2, .descripcion3  {
-    font-size: 20px;
+    font-size: 16px;
     color: #495057;
     text-align: center;
     margin-bottom: 20px;
