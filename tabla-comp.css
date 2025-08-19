@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Federant&display=swap');
+
+body {
+    background-color: beige;
+    font-family: 'Federant';
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #00478d;
+    font-size: 40px;
+}
+table th:hover {
+    background-color: #00478d;
+    color: white;
+    padding: 10px;
+}
+
+table tr:hover {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}  
+
+div {
+    background-color: rgb(168, 164, 235);
+    width: 50%;
+    margin: 10px auto;
+}
+form {
+    font-family: Federant;
+    font-size: 30px;
+}
+form input[type="text"] {
+    width: 96%;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 23px;
+    
+}
+form input[type="number"] {
+    width: 96%;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 23px ;
+}   
+form input[type="date"] {
+    width: 96%;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 23px ;
+}
+form input[type="time"] {
+    width: 96%;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 23px;
+}
+form input[type="submit"] {
+    background-color: #00478d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 23px;
+
+}
+
+
+

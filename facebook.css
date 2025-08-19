@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Federant&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* #0866FF azul #42B72A verde #ECF3FF BODY 0866ff color enlace*/
+
+:root {
+    --color-de-fondo:#F2F4F7 ;
+    --boton-de-crear-cuenta: #42B72A;
+    --boton-inicio-sesion: #0866FF;
+    --font-family: 'Lato';
+    --color-enlace: #0866FF;
+}
+
+body {
+    background-color: var(--color-de-fondo);
+    font-family: var(--font-family);    
+}
+.facebook {
+    display: flex;
+    height: 100vh;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.logo img {
+    width: 500px;
+    height: auto;
+}
+.informacion {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.formulario {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;}
+
+.boton-inicio {
+    background-color: var(--boton-inicio-sesion);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    & :hover {
+        background-color: #0856d1;
+    }
+}
+.boton-crear-cuenta {
+    background-color: var(--boton-de-crear-cuenta);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+}
+
+
+

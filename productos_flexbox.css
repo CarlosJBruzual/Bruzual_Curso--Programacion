@@ -9,8 +9,9 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 50px;
     background-color: #E9ECEF;
+    border-radius: 10px;
 }
 .imagenproducto1 {
     width: 90%;
