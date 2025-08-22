@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Federant&family=Gruppo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background-color: red;
+}
+
+.section-top {
+    background-color: black;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 40px;
+    font-family: Gruppo;
+
+   
+
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    gap: 10px;
+ 
+}
+
+img {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: left;
+    width: 200px;
+    margin-left: 140px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Gruppo;
+    font-size: 25px;
+}
+.buscador {
+    flex: 1;
+    display: flex;
+   min-width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 1;
+    font-family: Gruppo;
+    background-color: white;
+    border-radius: 10px;
+    font-family: Gruppo;
+    color: black;
+    
+    border-radius: 10px;
+}
+.inversiones {
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 1;
+    font-family: Gruppo;
+    background-color: brown;
+    border-radius: 10px;
+
+    
+}
+.inversiones-container {
+    margin-left: auto ;
+
+}
+
+.menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;          
+    gap: 20px; 
+}
+
+.placeholder {
+    text-align: left;
+}
+
+.section-two {
+    background-color: black;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 40px;
+    font-family: Gruppo;
+    color: white;
+    margin-top: 5px;
+}
+
+.textos {
+    flex: 1;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.telefono2 {
+     flex: 1;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.btn-tarjetas .btn {
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 1;
+    font-family: Gruppo;
+    background-color: brown;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+}
+
+.btn {
+    background-color: brown;
+    font-family: Gruppo;
+}
+.img2 {
+    width: 600px;
+}
+
+.btn-finals {
+    display: flex;
+    gap: 0; /* Espacio entre los botones */
+    justify-content: center; /* Centra los botones horizontalmente */
+    margin-top: 20px;
+    
+}
+
+.btn-sec-two {
+     flex: 1;
+    width: 10px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 1;
+    font-family: Gruppo;
+    background-color: brown;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 0;
+    color: white;
+}
+
+.section-three {
+    background-color: black;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.img-sec-three {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.section-four {
+    background-color: black;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 40px;
+    font-family: Gruppo;
+    margin-top: 5px;
+    gap: 40px;
+}
+
+.textos-two {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+    line-height: 1;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.img-sec-four {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 0;
+
+}
+.img-sec-four img {
+    width: 400%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+
+    }
+   
+.btn-sec-four {
+    display: flex;
+    gap: 0;
+    justify-content: flex-start;  
+    margin-top: 20px;
+}
+.boton1 {
+    flex: 1;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 1;
+    font-family: Gruppo;
+    background-color: brown;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 0;
+    color: white;
+}
+.boton2 {
+    flex: 1;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 1;
+    font-family: Gruppo;
+    background-color: brown;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 0;
+    color: white;
+}
+.boton3 {
+    flex: 1;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 1;
+    font-family: Gruppo;
+    background-color: brown;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 0;
+    color: white;
+}
+

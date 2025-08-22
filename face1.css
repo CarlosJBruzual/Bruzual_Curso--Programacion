@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+  display: flex;
+  flex-direction: center;
+  background-color: #fff;
+  
+ 
+
+  max-width: 900px;
+  width: 100%;
+}
+
+/* Sección izquierda */
+.left-section {
+  flex: 1;
+  background-color: #f0f2f5;
+  color: black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 350px;
+  margin-bottom: 1rem;
+ 
+}
+
+.slogan {
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 1.5rem;
+  
+}
+
+/* Sección derecha */
+.right-section {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: black;
+  border-radius: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+    box-shadow: black;
+  border-radius: 50px;
+}
+
+.input-field {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.login-button {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #145dbf;
+}
+
+.forgot-password {
+  text-align: center;
+  margin: 1rem 0;
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 1rem 0;
+  border: none;
+  border-top: 1px solid #dddfe2;
+}
+
+.signup-button {
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #36a420;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .left-section {
+    padding: 1.5rem;
+  }
+
+  .right-section {
+    padding: 1.5rem;
+  }
+}
