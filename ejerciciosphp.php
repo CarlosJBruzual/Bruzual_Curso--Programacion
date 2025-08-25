@@ -147,7 +147,17 @@ if ($temperatura < 10) {
     echo "La temperatura es Calurosa 🔥\n";
 }
 
+// 🔟 Cuenta Regresiva de Año Nuevo
+echo "## Cuenta Regresiva de Año Nuevo ##\n";
 
+// Bucle que cuenta hacia atrás desde 10 hasta 1
+for ($i = 10; $i >= 1; $i--) {
+    echo $i . "\n";
+    sleep(1); // Pausa de 1 segundo para simular la cuenta regresiva
+}
+
+// Mensaje final
+echo "¡Feliz Año Nuevo! 🎉\n";
 
 
 
