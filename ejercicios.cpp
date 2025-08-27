@@ -187,4 +187,80 @@ int main() {
     return 0;
 }
 
+#include <iostream>
+#include <vector>   // Necesario para usar std::vector (la lista dinámica)
+#include <string>   // Necesario para usar std::string
 
+// array nombres
+using namespace std;
+
+int main() {
+    // 9. Llenar una lista (vector) desde un array
+    cout << "--- Llenando una lista con nombres ---\n";
+
+    // 1. Crear un array de strings con los nombres
+    string nombres_array[] = {"Ana", "Carlos", "Beatriz", "David", "Elena"};
+
+    // 2. Crear un vector (lista) de strings vacío
+    vector<string> lista_nombres;
+
+    cout << "Agregando nombres del array a la lista...\n";
+
+    // 3. Recorrer el array y agregar cada nombre a la lista usando push_back
+    // sizeof(nombres_array) / sizeof(string) calcula cuántos elementos hay en el array
+    for (int i = 0; i < sizeof(nombres_array) / sizeof(string); ++i) {
+        lista_nombres.push_back(nombres_array[i]);
+    }
+
+    // 4. Imprimir los elementos de la lista para verificar
+    cout << "\nLa lista ahora contiene los siguientes nombres:\n";
+    for (const string& nombre : lista_nombres) {
+        cout << "- " << nombre << endl;
+    }
+
+    return 0;
+}
+
+
+
+#include <iostream>
+#include <string>
+
+// Definición de la clase Carro
+class Carro {
+public:
+    std::string marca;
+    std::string modelo;
+    int anio;
+    int velocidad;
+
+    void acelerar(int aumento) {
+        velocidad += aumento;
+    }
+
+    void frenar(int decremento) {
+        velocidad -= decremento;
+    }
+
+    void mostrarInfo() {
+        std::cout << "Marca: " << marca << ", Modelo: " << modelo << ", Año: " << anio << std::endl;
+    }
+};
+
+int main() {
+    // Crear un objeto de la clase Carro
+    Carro miCorolla;
+
+    // Asignar valores a sus atributos
+    miCorolla.marca = "Chevrolet";
+    miCorolla.modelo = "Silverado";
+    miCorolla.anio = 2015;
+    miCorolla.velocidad = 0;
+
+    // Usar sus métodos
+    miCorolla.mostrarInfo(); // Salida: Marca: Chevrolet, Modelo: Silverado, Año: 2015
+    miCorolla.acelerar(60);
+    std::cout << "Velocidad actual: " << miCorolla.velocidad << " km/h" << std::endl; // Salida: Velocidad actual: 60 km/h
+
+    return 0;
+}
